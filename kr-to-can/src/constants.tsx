@@ -2,7 +2,7 @@ import {Icon} from '@iconify/react';
 
 import { SideNavItem } from './types';
 
-export const SIDE_NAV_ITEMS: SideNavItem[] = [
+const SIDE_NAV_ITEMS: SideNavItem[] = [
     {
         title: 'Home',
         path: '/',
@@ -19,3 +19,8 @@ export const SIDE_NAV_ITEMS: SideNavItem[] = [
         icon: <Icon icon="bi:cloud-sun-fill" />,
     }
 ]
+
+const KoreanCities = ["Seoul", "Busan", "Incheon", "Daegu", "Daejeon", "Gwangju", "Gyeong", "Suwon", "Ulsan", "Jeju Island"];
+const CanadianCities = ["Vancouver", "Toronto", "Montreal", "Calgary", "Edmonton", "Ottawa", "Winnipeg", "Quebec City", "Hamilton", "Kitchener", "Halifax", "Waterloo", "Victoria"];
+
+export { SIDE_NAV_ITEMS, KoreanCities, CanadianCities };
